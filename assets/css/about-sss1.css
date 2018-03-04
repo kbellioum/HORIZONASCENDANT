@@ -1,0 +1,36 @@
+section.about-us {
+  color:#fff;
+}
+
+.abt-right {
+  background-color:#009bc1;
+}
+
+.abt-right p {
+  padding:35px;
+  padding:39px;
+  text-align:justify;
+}
+
+button.btn-primary.abt-right-btn {
+  margin:0 auto;
+  display:block;
+}
+
+.padding-content {
+  padding:76px 0;
+}
+
+.abt-right h5 {
+  padding:33px 0;
+}
+
+.about-us h3 {
+  padding-top:62px;
+  color:#000;
+}
+
+.no-padding {
+  padding:0;
+}
+
