@@ -1,0 +1,10 @@
+div > blockquote > .blockquote-footer {
+  display:block;
+  font-size:80%;
+  color:#eceff1;
+}
+
+#round {
+  border-radius:5px;
+}
+
