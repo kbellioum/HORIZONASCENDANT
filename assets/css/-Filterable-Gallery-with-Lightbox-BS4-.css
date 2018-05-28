@@ -385,3 +385,12 @@ body.hidden-scroll {
   color:white;
 }
 
+.video span {
+  color:white;
+}
+
+.video a {
+  margin:5px;
+  text-align:center;
+}
+
