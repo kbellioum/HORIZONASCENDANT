@@ -1,0 +1,174 @@
+@import 'footerbasic.css';
+@import 'blog.css';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5 {
+  color: #333;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.blockquote {
+  font-size: 1.2rem;
+  color: #353;
+  border: none;
+  padding: 0;
+}
+
+.blockquote-footer {
+  margin: 1rem 0 0;
+}
+
+#stage {
+  background: url('../images/900.png') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/parallax-img.jpg");
+
+    /* Set a specific height */
+    /* height: 500px; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.article1-bg-img {
+  background: url('../images/01.jpg') center center no-repeat;
+}
+.article2-bg-img {
+  background: url('../images/02.jpg') center center no-repeat;
+}
+.article3-bg-img {
+  background: url('../images/03.jpg') center center no-repeat;
+}
+.article4-bg-img {
+  background: url('../images/04.jpg') center center no-repeat;
+}
+.article5-bg-img {
+  background: url('../images/05.png') center center no-repeat;
+}
+.article6-bg-img {
+  background: url('../images/06.jpg') center center no-repeat;
+}
+
+#topimage {
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#stage-caption {
+  font-size: 1.4rem;
+  font-weight: 200;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#stage-caption h1 {
+  color: white;
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
+}
+
+
+#pres-video {
+  padding: 8rem 0;
+  overflow: hidden;
+}
+
+#articles {
+  padding: 6rem 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.3);
+}
+
+#youtubevideo {
+  border-radius:5px;
+  box-shadow:2px 2px 5px grey;
+}
+
+#theneed {
+  padding: 6rem 0;
+}
+
+#thesolution {
+  padding: 0 0 6rem 0;
+}
+
+.lowcost-text {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.article-quote {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.lowcost-text h2 {
+  color: white;
+}
+
+#lowcode {
+  padding: 6rem 0;
+}
+
+.image-align {
+  display: flex;
+  align-items: center;
+}
+
+#lowcost {
+  background: url('../images/lowcost.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+#toptext {
+  padding-top: 10rem;
+}
+
+#pad-article-text {
+  padding-top: 2rem;
+}
