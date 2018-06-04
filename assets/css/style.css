@@ -98,10 +98,21 @@ img {
   max-width: 60rem;
   margin: 0 auto;
   text-align: center;
+  background-color: rgba(255,255,255, 0.3);
+  border-radius: 5px;
+  padding: 2rem 0;
 }
 
 #stage-caption h1 {
   color: white;
+  text-shadow: 0 0.1rem rgba(0, 0, 0, .5);
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
+}
+
+#stage-caption p {
+  color: white;
+  text-shadow: 0 0.1rem rgba(0, 0, 0, .5);
   /* font-weight: bold; */
   /* text-transform: uppercase; */
 }
@@ -171,4 +182,8 @@ img {
 
 #pad-article-text {
   padding-top: 2rem;
+}
+
+.bg-white {
+  background-color: rgba(255,255,255, 1);
 }
