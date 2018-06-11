@@ -83,6 +83,16 @@ img {
   background: url('../images/06.jpg') center center no-repeat;
 }
 
+
+#stage {
+  background: url('../images/lowcost.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 6rem 0;
+}
+
 #topimage {
   background-size: cover;
   color: white;
@@ -148,6 +158,12 @@ img {
   padding: 2rem;
 }
 
+.stage-text {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  padding: 2rem;
+}
+
 .article-quote {
   background-color: rgba(0,0,0,0.7);
   border-radius: 5px;
@@ -155,6 +171,9 @@ img {
 }
 
 .lowcost-text h2 {
+  color: white;
+}
+.stage-text h2 {
   color: white;
 }
 
@@ -168,7 +187,7 @@ img {
 }
 
 #lowcost {
-  background: url('../images/lowcost.jpg') center center no-repeat;
+  background: url('../images/financial.jpg') center center no-repeat;
   background-size: cover;
   color: white;
   display: flex;
